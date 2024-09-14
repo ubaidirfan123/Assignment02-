@@ -1,0 +1,83 @@
+
+   Assignment no.4
+
+  void main() {
+  
+  Question no.1
+  
+  List numbers = [3, 9, 1, 6, 4, 2, 8, 5, 7];
+
+  int largest = numbers[0];
+
+  for (int number in numbers) {
+    if (number > largest) {
+      largest = number;
+    }
+  }
+
+  print('Largest element: $largest');
+}
+
+Question no.2  
+ 
+  int number = 5;
+
+  for (int i = 1; i <= 10; i++) {
+    print('$number x $i = ${number * i}');
+  }
+}
+
+  Question no.3
+    
+  Map user = {
+    'name': 'Alice',
+    'isAdmin': true,
+    'isActive': true,
+  };
+
+ 
+  if (user['isAdmin'] == true && user['isActive'] == true) {
+    print('Active admin');
+  } else {
+    print('Not an active admin');
+  }
+}
+
+Question no.4
+  
+  Map car = {
+    'brand': 'Toyota',
+    'color': 'Red',
+    'isSedan': true,
+  };
+
+  
+  if (car['isSedan'] == true && car['color'] == 'Red') {
+    print('Match');
+  } else {
+    print('No match');
+  }
+}
+s
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
